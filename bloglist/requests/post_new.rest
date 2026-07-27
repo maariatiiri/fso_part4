@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+    "title": "Juusto on hyvää ja minun pitäisi saada sitä enemmän",
+    "author": "Jalo Tiiri",
+    "url": "error404.fi",
+    "likes": 0
+}
