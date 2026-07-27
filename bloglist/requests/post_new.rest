@@ -2,8 +2,8 @@ POST http://localhost:3001/api/blogs
 content-type: application/json
 
 {
-    "title": "Juusto on hyvää ja minun pitäisi saada sitä enemmän",
-    "author": "Jalo Tiiri",
-    "url": "error404.fi",
+    "title": "On tärkeää mennä eteenpäin",
+    "author": "Jussi Tiiri",
+    "url": "error500.fi",
     "likes": 0
 }
