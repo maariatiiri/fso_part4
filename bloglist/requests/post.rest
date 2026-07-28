@@ -2,7 +2,7 @@ POST http://localhost:3001/api/blogs
 content-type: application/json
 
 {
-    "title": "Nukkuminen normaaliasennossa",
+    "title": "Mikä suunta on eteenpäin?",
     "author": "Jussi Tiiri",
     "url": "error500.fi",
     "likes": 0
@@ -16,5 +16,15 @@ content-type: application/json
 {
     "username": "JussinUusiTili",
     "name": "Jussi Tiiri",
+    "password": "turvaton_salasana"
+}
+
+###
+
+POST http://localhost:3001/api/login
+content-type: application/json
+
+{
+    "username": "JussinUusiTili",
     "password": "turvaton_salasana"
 }
