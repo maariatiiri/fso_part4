@@ -7,3 +7,14 @@ content-type: application/json
     "url": "error500.fi",
     "likes": 0
 }
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "jal0",
+    "name": "Jalo",
+    "password": "possunkorva"
+}
