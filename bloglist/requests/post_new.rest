@@ -2,7 +2,7 @@ POST http://localhost:3001/api/blogs
 content-type: application/json
 
 {
-    "title": "On tärkeää mennä eteenpäin",
+    "title": "Nukkuminen normaaliasennossa",
     "author": "Jussi Tiiri",
     "url": "error500.fi",
     "likes": 0
@@ -14,7 +14,7 @@ POST http://localhost:3001/api/users
 content-type: application/json
 
 {
-    "username": "Juss1",
+    "username": "JussinUusiTili",
     "name": "Jussi Tiiri",
     "password": "turvaton_salasana"
 }
