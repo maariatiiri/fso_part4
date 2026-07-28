@@ -1,6 +1,6 @@
 POST http://localhost:3001/api/blogs
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikp1c3NpblV1c2lUaWxpIiwiaWQiOiI2YTY4ODY0NTVmZjUxZDhlNDcxNGI0ODEiLCJpYXQiOjE3ODUyMzYxMDN9.Of8XTmumoqujb2HXCYHHAguRFHpSzXWNUSvXkWFL6qc
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikp1c3NpblV1c2lUaWxpIiwiaWQiOiI2YTY4ODY0NTVmZjUxZDhlNDcxNGI0ODEiLCJpYXQiOjE3ODUyMzY4Nzl9.ULRDCvNtDKGadGnlDC4GXBl2NVy3yVjaZq30nARnGoY
 
 {
     "title": "Voinko lopettaa blogien kirjoittamisen ?!!",
