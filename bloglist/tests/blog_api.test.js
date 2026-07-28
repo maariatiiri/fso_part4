@@ -71,7 +71,7 @@ describe('when there are initially blogs in database', async () => {
             assert(titles.includes('What do Dark Souls games and studying physics have in common?'))
         })
 
-        test.only('likes are set to zero if they are missing', async () => {
+        test('likes are set to zero if they are missing', async () => {
 
             const loginInfo = await api
                 .post('/api/login')
@@ -100,7 +100,7 @@ describe('when there are initially blogs in database', async () => {
             assert.strictEqual(likelessBlog.likes, 0)
         })
 
-        test.only('missing title or url results in 400 bad request', async () => {
+        test('missing title or url results in 400 bad request', async () => {
             const loginInfo = await api
                 .post('/api/login')
                 .send({
@@ -135,7 +135,7 @@ describe('when there are initially blogs in database', async () => {
             assert.strictEqual(blogsAtEnd.length, helper.initialBlogs.length)
         })
 
-        test.only('not providing a token results in 401 unauthorized request', async () => {
+        test('not providing a token results in 401 unauthorized request', async () => {
             const newBlog = {
                 title: 'Why Elden Ring is better without summons',
                 author: 'Maaria Tiiri',
@@ -148,8 +148,6 @@ describe('when there are initially blogs in database', async () => {
                 .expect(401)
         })
     })
-
-
 
     describe('viewing a specific blog', ()=> {
         test('a valid blog can be viewed', async () => {
