@@ -1,9 +1,9 @@
 POST http://localhost:3001/api/blogs
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikp1c3NpblV1c2lUaWxpIiwiaWQiOiI2YTY4ODY0NTVmZjUxZDhlNDcxNGI0ODEiLCJpYXQiOjE3ODUyMzY4Nzl9.ULRDCvNtDKGadGnlDC4GXBl2NVy3yVjaZq30nARnGoY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikp1c3NpblV1c2lUaWxpIiwiaWQiOiI2YTY4ODY0NTVmZjUxZDhlNDcxNGI0ODEiLCJpYXQiOjE3ODUyNDEwNzd9.EV8Mi99a6Acci_LrGTB72JmJ6rJcJjypPSQ350-uRnI
 
 {
-    "title": "Voinko lopettaa blogien kirjoittamisen ?!!",
+    "title": "Tänään joudun pesulle?!!",
     "author": "Jussi Tiiri",
     "url": "error500.fi",
     "likes": 0
